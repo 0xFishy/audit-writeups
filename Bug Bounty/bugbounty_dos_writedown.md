@@ -2,7 +2,6 @@
 
 **Severity:** Medium (downgraded to Low by judge)
 **Platform:** Bug Bounty — Immunefi
-**Reward:** $1,000
 
 ---
 
@@ -46,5 +45,6 @@ Griefing / Denial of Service on core liquidity provision. Legitimate users are u
 ### Severity Rationale
 
 Submitted as **Medium**. Downgraded to **Low** by the project on the basis that executing the attack requires the attacker to lock tokens as minimum liquidity, incurring a loss.
+
 
 I maintain the **Medium** classification given the disproportionate impact relative to attack cost and the absence of a complete mitigation at the contract level.
