@@ -1,7 +1,5 @@
 # [H-1] Delegators Can Never Withdraw Their Funds Due to Incorrect Delegation Mapping
 
-## Description
-
 ## Summary
 A logic bug in the delegation process makes it impossible for delegators to ever withdraw their staked funds. Regardless of validator behavior, delegators are permanently unable to reclaim their stake.
 
@@ -117,8 +115,6 @@ delegations[validatorAddress] = Delegation(blsPubkeyHash, validatorAddress, msg.
 
 # [H-2] Double Penalty on Slashed Validators Prevents Reward Withdrawal
 
-## Description
-
 ## Summary
 The staking reward calculation does not account for slashed amounts, causing slashed validators to be unable to claim any rewards until their balance exceeds their initial stake. This results in an unintended double penalty.
 
@@ -221,8 +217,6 @@ This ensures that slashing only penalizes the validator by the intended amount a
 
 
 # [L-1] Committee Size Calculation Bug in `_ejectFromCommittees`
-
-## Description
 
 # Vulnerability Report: Committee Size Calculation Bug in `_ejectFromCommittees`
 
