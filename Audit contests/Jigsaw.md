@@ -276,7 +276,7 @@ contract Vulnerability_ExcessiveCollateralRetrieval is BasicContractsFixture {
     }
 }
 
-
+```
 ### Recommendation
 Implement Balance Checks: Before withdrawing from strategies, check if the holding has sufficient balance to cover the liquidation requirements.
 
