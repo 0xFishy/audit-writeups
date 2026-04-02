@@ -1,4 +1,4 @@
-## SuperValidatorBase Incorrectly Handles Infinite Validity Signatures (validUntil=0) Against ERC7579 Specification
+## Superform
 
 **Severity:** Medium
 **Platform:** Audit Contest — Cantina (Superform V2)
